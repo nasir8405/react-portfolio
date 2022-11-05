@@ -6,6 +6,6 @@ export const projectData = [
     image: project1,
     title: "My Portfolio",
     githubCodeUrl: "https://github.com/nasir8405/my-portfolio",
-    demoUrl: "https://portfolio-nasir-khan.netlify.app",
+    demoUrl: "https://guileless-smakager-2b1c3d.netlify.app",
   },
 ];
