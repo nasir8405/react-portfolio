@@ -2,17 +2,24 @@ import React from "react";
 import "./Projects.css";
 // import IMG1 from "../../Assets/portfolio1.jpg";
 import project1 from "../../Assets/project1.PNG";
-
+const data = [
+  {
+    id: 1,
+    image: project1,
+    title: "My Portfolio",
+    githubCodeUrl: "https://github.com/nasir8405/react-portfolio",
+    demoUrl: "https://www.google.com",
+  },
+  {
+    id: 2,
+    image: project1,
+    title: "My Portfolio",
+    githubCodeUrl: "https://github.com/nasir8405/react-portfolio",
+    demoUrl: "https://www.google.com",
+  },
+];
 export const Projects = () => {
-  const data = [
-    {
-      id: 1,
-      image: project1,
-      title: "My Portfolio",
-      githubCodeUrl: "https://github.com/nasir8405/react-portfolio",
-      demoUrl: "https://www.google.com",
-    },
-  ];
+  console.log(data);
   return (
     <section id="projects">
       <div className="container">
