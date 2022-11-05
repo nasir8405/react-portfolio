@@ -1,6 +1,5 @@
 import React from "react";
 import "./Projects.css";
-// import IMG1 from "../../Assets/portfolio1.jpg";
 import project1 from "../../Assets/project1.PNG";
 const data = [
   {
