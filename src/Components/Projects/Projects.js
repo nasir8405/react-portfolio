@@ -1,30 +1,13 @@
 import React from "react";
 import "./Projects.css";
-import project1 from "../../Assets/project1.PNG";
-const data = [
-  {
-    id: 1,
-    image: project1,
-    title: "My Portfolio",
-    githubCodeUrl: "https://github.com/nasir8405/react-portfolio",
-    demoUrl: "https://www.google.com",
-  },
-  {
-    id: 2,
-    image: project1,
-    title: "My Portfolio",
-    githubCodeUrl: "https://github.com/nasir8405/react-portfolio",
-    demoUrl: "https://www.google.com",
-  },
-];
+import { projectData } from "./mockData";
 export const Projects = () => {
-  console.log(data);
   return (
     <section id="projects">
       <div className="container">
         <h2>My Projects & Works</h2>
         <div className="projects-container">
-          {data.map((project) => {
+          {projectData.map((project) => {
             return (
               <article className="projects-item" key={project.id}>
                 <div className="projects-item-image">
