@@ -1,7 +1,7 @@
 import { About } from "./Components/About/About";
 import { Contact } from "./Components/Contact/Contact";
 import { Experience } from "./Components/Skills/Skills";
-import { Projects } from "./Components/Projects/Projects";
+import { Projects } from "./Components/Portfolio/Projects";
 import { Nav } from "./Components/Nav/Nav";
 
 function App() {
