@@ -1,32 +1,41 @@
-nav{
-    background:rgba(0, 0, 0, 0.3);
-    width:100%;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
-    position: fixed;
-    display: flex ;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(15px);
+nav {
+  background: #1f2937;
+  width: 100%;
+  padding: 0.7rem 0;
+  z-index: 2;
+  position: fixed;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  top: 0;
 }
-nav a{
-    background: transparent;
-    padding: 0.9rem;
-    display: flex;
-    color: var(--color-light);
+.nav-header {
+  padding-left: 0 !important;
 }
-nav a:hover{
-    color:var(--color-primary);
+nav > div {
+  display: flex;
+}
+nav > div > div {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  display: flex;
+  color: var(--color-light);
+}
+nav a:hover {
+  color: var(--color-primary);
 }
 
-nav a.active{
-    color:var(--color-primary);
+nav a.active {
+  font-size: 1.2rem;
+  color: var(--color-primary);
 }
 
-  /*=============For Small Devices=============*/
-  @media screen and (max-width:600px) {
-    nav a{
-        padding: 0.25rem;
-    }
-    
+/*=============For Small Devices=============*/
+@media screen and (max-width: 600px) {
+  nav a {
+    padding: 0.25rem;
   }
+}

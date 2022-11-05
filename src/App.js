@@ -1,15 +1,13 @@
 import { About } from "./Components/About/About";
 import { Contact } from "./Components/Contact/Contact";
-import { Experience } from "./Components/Experience/Experience";
-import { Header } from "./Components/Header/Header";
+import { Experience } from "./Components/Skills/Skills";
 import { Nav } from "./Components/Nav/Nav";
-import { Portfolio } from "./Components/Portfolio/Portfolio";
+import { Portfolio } from "./Components/Projects/Projects";
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <Header />
       <About />
       <Experience />
       <Portfolio />
