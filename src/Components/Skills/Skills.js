@@ -12,7 +12,7 @@ const data = [
 ];
 export const Experience = () => {
   return (
-    <section id="experience">
+    <section id="skills">
       <div className="container">
         <h2>Skills & Technology</h2>
         <div className="experience-container">

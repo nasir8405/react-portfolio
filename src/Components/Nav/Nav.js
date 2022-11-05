@@ -24,18 +24,18 @@ export const Nav = () => {
             About
           </a>
           <a
-            href="#experience"
+            href="#skills"
             onClick={() => setActive("#experience")}
             className={active === "#experience" ? "active" : ""}
           >
-            Experience
+            Skills
           </a>
           <a
-            href="#portfolio"
+            href="#projects"
             onClick={() => setActive("#portfolio")}
             className={active === "#portfolio" ? "active" : ""}
           >
-            Portfolio
+            Projects
           </a>
           <a
             href="#contact"
