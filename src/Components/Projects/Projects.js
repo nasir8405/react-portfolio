@@ -1,12 +1,13 @@
 import React from "react";
 import "./Projects.css";
-import IMG1 from "../../Assets/portfolio1.jpg";
+// import IMG1 from "../../Assets/portfolio1.jpg";
+import project1 from "../../Assets/project1.PNG";
 
 export const Projects = () => {
   const data = [
     {
       id: 1,
-      image: IMG1,
+      image: project1,
       title: "My Portfolio",
       githubCodeUrl: "https://github.com/nasir8405/react-portfolio",
       demoUrl: "https://www.google.com",
