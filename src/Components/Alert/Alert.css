@@ -1,0 +1,11 @@
+.alert-container {
+  color: #0f5132;
+  background-color: #d1e7dd;
+  transition: opacity 0.15s linear;
+  padding: 0.5rem;
+  position: fixed;
+  top: 5.4rem;
+  width: 50%;
+  left: 25%;
+  border-radius: 0.5rem;
+}

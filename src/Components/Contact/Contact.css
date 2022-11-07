@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 .contact-options {
   display: flex;

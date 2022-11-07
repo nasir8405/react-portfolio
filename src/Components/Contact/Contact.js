@@ -1,22 +1,30 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
+import { AlertComponent } from "../Alert/Alert";
 
 export const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log("hi");
     emailjs.sendForm(
       "service_eqole5e",
       "template_721dftj",
       form.current,
       "haHhV4kDe5zAxMprK"
     );
+    showAlert();
     e.target.reset();
+    setTimeout(() => {
+      setShow(null);
+    }, 2000);
+  };
+  const [show, setShow] = useState(null);
+  const showAlert = () => {
+    setShow(true);
   };
   return (
     <section id="contact">
@@ -59,6 +67,7 @@ export const Contact = () => {
           </form>
         </div>
       </div>
+      {show !== null ? <AlertComponent /> : ""}
     </section>
   );
 };
