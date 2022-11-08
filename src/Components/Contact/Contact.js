@@ -29,6 +29,9 @@ export const Contact = () => {
       setTimeout(() => {
         setShow(null);
       }, 2000);
+      setBorderName("");
+      setBorderEmail("");
+      setBorderMessage("");
     } else {
       if (name === "") {
         setBorderName("border");
