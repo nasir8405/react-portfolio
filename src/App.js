@@ -3,7 +3,6 @@ import { Contact } from "./Components/Contact/Contact";
 import { Skills } from "./Components/Skills/Skills";
 import { Projects } from "./Components/Projects/Projects";
 import { Nav } from "./Components/Nav/Nav";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
