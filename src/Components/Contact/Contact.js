@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
@@ -6,21 +6,40 @@ import emailjs from "emailjs-com";
 import { AlertComponent } from "../Alert/Alert";
 
 export const Contact = () => {
-  const form = useRef();
-
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [borderName, setBorderName] = useState("");
+  const [borderEmail, setBorderEmail] = useState("");
+  const [borderMessage, setBorderMessage] = useState("");
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm(
-      "service_eqole5e",
-      "template_721dftj",
-      form.current,
-      "haHhV4kDe5zAxMprK"
-    );
-    showAlert();
-    e.target.reset();
-    setTimeout(() => {
-      setShow(null);
-    }, 2000);
+    if ((name !== "" && email !== "", message !== "")) {
+      emailjs.sendForm(
+        "service_eqole5e",
+        "template_721dftj",
+        e.target,
+        "haHhV4kDe5zAxMprK"
+      );
+      showAlert();
+      e.target.reset();
+      setName("");
+      setEmail("");
+      setMessage("");
+      setTimeout(() => {
+        setShow(null);
+      }, 2000);
+    } else {
+      if (name === "") {
+        setBorderName("border");
+      }
+      if (email === "") {
+        setBorderEmail("border");
+      }
+      if (message === "") {
+        setBorderMessage("border");
+      }
+    }
   };
   const [show, setShow] = useState(null);
   const showAlert = () => {
@@ -57,10 +76,31 @@ export const Contact = () => {
               </a>
             </article>
           </div>
-          <form ref={form} onSubmit={(e) => sendEmail(e)}>
-            <input type="text" name="name" placeholder="Your Full Name" />
-            <input type="email" name="email" placeholder="Your E-mail" />
-            <textarea name="message" rows="7" placeholder="Your Message" />
+          <form onSubmit={(e) => sendEmail(e)}>
+            <input
+              className={`${borderName}`}
+              type="text"
+              name="name"
+              value={name}
+              placeholder="Your Full Name"
+              onChange={(e) => setName(e.target.value)}
+            />
+            <input
+              className={`${borderEmail}`}
+              type="email"
+              name="email"
+              value={email}
+              placeholder="Your E-mail"
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <textarea
+              className={`${borderMessage}`}
+              name="message"
+              rows="7"
+              value={message}
+              placeholder="Your Message"
+              onChange={(e) => setMessage(e.target.value)}
+            />
             <button type="submit" className="btn btn-primary">
               Send Message{" "}
             </button>

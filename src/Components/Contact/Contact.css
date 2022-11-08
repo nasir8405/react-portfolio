@@ -52,7 +52,9 @@ textarea {
   resize: none;
   color: var(--color-white);
 }
-
+.border {
+  border-color: red;
+}
 /*=============For Medium Devices=============*/
 
 @media screen and (max-width: 1024px) {
