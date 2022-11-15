@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Nav.css";
 export const Nav = () => {
   const [active, setActive] = useState("#header");
-
   return (
     <nav>
       <div className="container">
@@ -15,7 +14,7 @@ export const Nav = () => {
             My Portfolio
           </a>
         </div>
-        <div>
+        <div className="link-container">
           <a
             href="#about"
             onClick={() => setActive("#about")}
