@@ -4,7 +4,7 @@ export const Nav = () => {
   const [active, setActive] = useState("#header");
   return (
     <nav>
-      <div className="container">
+      <div className="container nav-container">
         <div>
           <a
             href="/"

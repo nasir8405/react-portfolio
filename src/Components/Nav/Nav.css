@@ -35,3 +35,18 @@ nav a.active {
 .link-container {
   overflow: scroll;
 }
+
+@media screen and (max-width: 600px) {
+  .nav-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+  .nav-container > div {
+    justify-content: center;
+  }
+  .nav-container > div a {
+    padding: 0.5rem;
+  }
+}
