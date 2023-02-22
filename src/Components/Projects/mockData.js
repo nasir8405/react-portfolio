@@ -1,16 +1,16 @@
-import portfolio from "../../Assets/portfolio.PNG";
+// import portfolio from "../../Assets/portfolio.PNG";
 import crudApp from "../../Assets/crudApp.PNG";
 import rentPayment from "../../Assets/rentPayment.PNG";
 import project4 from "../../Assets/project4.PNG";
 
 export const projectData = [
-  {
-    id: 1,
-    image: portfolio,
-    title: "My Portfolio",
-    githubCodeUrl: "https://github.com/nasir8405/my-portfolio",
-    demoUrl: "https://portfolio-nasir-khan.netlify.app/",
-  },
+  // {
+  //   id: 1,
+  //   image: portfolio,
+  //   title: "My Portfolio",
+  //   githubCodeUrl: "https://github.com/nasir8405/my-portfolio",
+  //   demoUrl: "https://portfolio-nasir-khan.netlify.app/",
+  // },
   {
     id: 2,
     image: rentPayment,
