@@ -16,7 +16,10 @@ export const About = () => {
                 <article className="about-card">
                   <FaAward className="about-icon" />
                   <h5>Done</h5>
-                  <small>Intership During College</small>
+                  <small>
+                    Intership During College & Worked for Abaris softech for 6
+                    Months
+                  </small>
                 </article>
                 <article className="about-card">
                   <VscFolderLibrary className="about-icon" />
