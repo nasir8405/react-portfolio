@@ -32,10 +32,12 @@ export const About = () => {
           <div className="about-content">
             <p>
               Software engineer with ability to learn and collaborate in rapidly
-              changing environments and compositions.Worked through 1000+ hours
-              of bootcamp structure, learning javaScript,React.js and HTML.Eager
-              to tackle web development challenge to achieve lasting impacts on
-              user experience. For more contact me by click below...
+              changing environments and compositions.Resourceful professional
+              with successful track record in developing innovative web designs
+              and features. Possesses solid knowledge of JavaScript, React JS,
+              HTML, CSS, and Bootstrap with ability to quickly learn new
+              technologies. Demonstrated success in identifying and resolving
+              complex code issues. For more contact me by click below...
             </p>
             <CTA />
           </div>
