@@ -14,13 +14,15 @@ export const About = () => {
             <div className="about-me-image">
               <div className="about-cards">
                 <article className="about-card">
-                  <FaAward className="about-icon" />
-                  <h5></h5>
+                  <div>
+                    <FaAward className="about-icon" />
+                  </div>
                   <small>Currently working in Abaris softech</small>
                 </article>
                 <article className="about-card">
-                  <VscFolderLibrary className="about-icon" />
-                  <h5></h5>
+                  <div>
+                    <VscFolderLibrary className="about-icon" />
+                  </div>
                   <small>
                     Done Internship <br /> Worked on more than 5 projects
                   </small>
