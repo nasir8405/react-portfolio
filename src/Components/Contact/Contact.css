@@ -10,9 +10,6 @@
   flex-direction: column;
   gap: 1.2rem;
 }
-.content-header {
-  margin-bottom: 0;
-}
 .contact-option {
   background: var(--color-bg-variant);
   padding: 1.2rem;

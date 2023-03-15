@@ -32,13 +32,32 @@ export const About = () => {
           </div>
           <div className="about-content">
             <p>
-              Software engineer with ability to learn and collaborate in rapidly
-              changing environments and compositions.Resourceful professional
-              with successful track record in developing innovative web designs
-              and features. Possesses solid knowledge of JavaScript, React JS,
-              HTML, CSS, and Bootstrap with ability to quickly learn new
-              technologies. Demonstrated success in identifying and resolving
-              complex code issues. For more contact me by click below...
+              My name is Nasir Firdaush, and I am a full stack software
+              developer with a degree from Galgotias University. With one years
+              of experience in the software development industry, I possess a
+              deep understanding of the software development life cycle and have
+              successfully delivered high-quality solutions to clients.
+              <br />
+              <br />
+              My primary area of expertise is in JavaScript, React JS, HTML,
+              CSS, and Bootstrap, and I have extensive experience in designing
+              and developing responsive web applications. I have a keen eye for
+              detail and strive for excellence in every project that I work on.
+              <br />
+              <br />
+              In addition to my technical skills, I am an excellent communicator
+              and work well in a team environment. I believe that collaboration
+              and open communication are key to delivering successful software
+              solutions.
+              <br />
+              <br />
+              Overall, I am a motivated, dedicated, and highly skilled software
+              developer who is passionate about delivering exceptional results
+              to clients. I look forward to continuing to expand my skill set
+              and take on new challenges in the software development industry.
+              <br />
+              <br />
+              For more contact me by click below...
             </p>
             <CTA />
           </div>
