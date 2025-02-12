@@ -1,5 +1,4 @@
 import React from 'react'
-import CV from "../../Assets/cv.pdf"
 import newCV from "../../Assets/CV.pdf"
 
 export const CTA = () => {
