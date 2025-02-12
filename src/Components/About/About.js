@@ -17,7 +17,7 @@ export const About = () => {
                   <div>
                     <FaAward className="about-icon" />
                   </div>
-                  <small>Currently working in Abaris softech</small>
+                  <small>Currently working in Mccoy Mart</small>
                 </article>
                 <article className="about-card">
                   <div>
@@ -32,14 +32,14 @@ export const About = () => {
           </div>
           <div className="about-content">
             <p>
-              My name is Nasir Firdaush, and I am a full stack software
-              developer with a degree from Galgotias University. With one years
+              My name is Nasir Firdaush, and I am a Front End software
+              developer with a degree from Galgotias University. With two years
               of experience in the software development industry, I possess a
               deep understanding of the software development life cycle and have
               successfully delivered high-quality solutions to clients.
               <br />
               <br />
-              My primary area of expertise is in JavaScript, React JS, HTML,
+              My primary area of expertise is in JavaScript, React JS,Next js, HTML,
               CSS, and Bootstrap, and I have extensive experience in designing
               and developing responsive web applications. I have a keen eye for
               detail and strive for excellence in every project that I work on.
